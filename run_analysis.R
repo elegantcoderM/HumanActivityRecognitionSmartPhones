@@ -1,4 +1,5 @@
 library(dplyr)
+library(plyr)
 
 ###############################################################
 # Merge the training and the test sets to create one data set #
@@ -30,13 +31,10 @@ features <- read.table("features.txt")
 colnames(X_all) <- as.character(features[,2])
 
 colnames(y_all) <- "activity"
-colnames(subject_all) <- "person_id"
+colnames(subject_all) <- "subject"
 
 # Merge subject, activity and observed value into one data variable
 data <- cbind(subject_all, y_all, X_all)
-
-# Clear the data that is no longer needed
-
 
 ########################################################################
 # Extract only the measurements on the mean and standard deviation for #
@@ -70,5 +68,13 @@ data$activity <- factor(data$activity, labels = activity_lab[,2])
 # From the data set in step 4, create a second, independent tidy data      #
 # set with the average of each variable for each activity and each subject #
 ############################################################################
+# Remove invalid chars from the names
+names(data) <- make.names(names(data))
 
+# Calculate the means of all the variables by the grouping on subject 
+# and activity
+tidydata <- ddply(data, .(activity, subject), numcolwise(mean,na.rm = TRUE))
+
+# Write data onto a file
+write.table(tidydata, "tidydata")
 
