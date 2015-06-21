@@ -52,12 +52,14 @@ data <- data[!duplicated(names(data))]
 mean_col_indices <- which(grepl("mean\\(\\)", colnames(data)))
 std_dev_col_indices <- which(grepl("std\\(\\)", colnames(data)))
 
-data <- select(data, mean_col_indices, std_dev_col_indices)
+# 1 and 2 are subject and actvity columns
+data <- select(data, 1, 2, mean_col_indices, std_dev_col_indices)
 
 #########################################################################
 # Use descriptive activity names to name the activities in the data set #
 #########################################################################
-
+activity_lab <- read.table("activity_labels.txt")
+data$activity <- factor(data$activity, labels = activity_lab[,2])
 
 #####################################################################
 # Appropriately label the data set with descriptive variable names. #
