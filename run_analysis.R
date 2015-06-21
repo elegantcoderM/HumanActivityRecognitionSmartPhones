@@ -76,5 +76,5 @@ names(data) <- make.names(names(data))
 tidydata <- ddply(data, .(activity, subject), numcolwise(mean,na.rm = TRUE))
 
 # Write data onto a file
-write.table(tidydata, "tidydata")
+write.table(tidydata, "tidydata.txt")
 
