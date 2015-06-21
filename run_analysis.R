@@ -1,3 +1,5 @@
+library(dplyr)
+
 ###############################################################
 # Merge the training and the test sets to create one data set #
 ###############################################################
@@ -33,18 +35,38 @@ colnames(subject_all) <- "person_id"
 # Merge subject, activity and observed value into one data variable
 data <- cbind(subject_all, y_all, X_all)
 
+# Clear the data that is no longer needed
+
 
 ########################################################################
 # Extract only the measurements on the mean and standard deviation for #
 # each measurement.                                                    #
 ########################################################################
+# Convert data into tbl format
+data <- tbl_df(data)
+
+# We are interested only in mean and std_dev cols and these do not have
+# duplicates so remove the duplicates
+data <- data[!duplicated(names(data))]
+
+mean_col_indices <- which(grepl("mean\\(\\)", colnames(data)))
+std_dev_col_indices <- which(grepl("std\\(\\)", colnames(data)))
+
+data <- select(data, mean_col_indices, std_dev_col_indices)
+
+#########################################################################
+# Use descriptive activity names to name the activities in the data set #
+#########################################################################
 
 
+#####################################################################
+# Appropriately label the data set with descriptive variable names. #
+#####################################################################
 
-# Use descriptive activity names to name the activities in the data set
+
+############################################################################
+# From the data set in step 4, create a second, independent tidy data      #
+# set with the average of each variable for each activity and each subject #
+############################################################################
 
 
-# Appropriately label the data set with descriptive variable names.
-
-# From the data set in step 4, create a second, independent tidy data
-# set with the average of each variable for each activity and each subject
