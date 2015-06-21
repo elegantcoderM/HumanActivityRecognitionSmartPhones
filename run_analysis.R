@@ -64,7 +64,7 @@ data$activity <- factor(data$activity, labels = activity_lab[,2])
 #####################################################################
 # Appropriately label the data set with descriptive variable names. #
 #####################################################################
-
+# Already done above in line 30
 
 ############################################################################
 # From the data set in step 4, create a second, independent tidy data      #
