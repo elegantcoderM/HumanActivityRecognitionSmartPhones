@@ -43,276 +43,205 @@ To generate the tidy data just source the R script.
 ###tBodyAcc.mean...X
  - Class of the variable: numeric
  - Unique values/levels of the variable: 0.2216 to 0.3015
- - Unit of measurement
  
 ###tBodyAcc.mean...Y
  - Class of the variable: numeric
- - Unique values/levels of the variable:
- - Unit of measurement:
  
 ###tBodyAcc.mean...Z
  - Class of the variable: numeric
- - Unique values/levels of the variable:
- - Unit of measurement:
 
 ###tGravityAcc.mean...X
  - Class of the variable: numeric
- - Unique values/levels of the variable:
- - Unit of measurement:
 
 ###tGravityAcc.mean...Y
  - Class of the variable: numeric
- - Unique values/levels of the variable:
- - Unit of measurement:
 
 ###tGravityAcc.mean...Z
  - Class of the variable: numeric
- - Unique values/levels of the variable:
- - Unit of measurement:
 
 ###tBodyAccJerk.mean...X
  - Class of the variable: numeric
- - Unique values/levels of the variable:
- - Unit of measurement:
- - 
+
 ###tBodyAccJerk.mean...Y
  - Class of the variable: numeric
- - Unique values/levels of the variable:
- - Unit of measurement:
- - 
+
 ###tBodyAccJerk.mean...Z
  - Class of the variable: numeric
- - Unique values/levels of the variable:
- - Unit of measurement:
- - 
+
 ###tBodyGyro.mean...X
  - Class of the variable: numeric
- - Unique values/levels of the variable:
- - Unit of measurement:
+
 ###tBodyGyro.mean...Y
  - Class of the variable: numeric
- - Unique values/levels of the variable:
- - Unit of measurement:
+
 ###tBodyGyro.mean...Z
  - Class of the variable: numeric
- - Unique values/levels of the variable:
- - Unit of measurement:
+
 ###tBodyGyroJerk.mean...X
  - Class of the variable: numeric
- - Unique values/levels of the variable:
- - Unit of measurement:
+
 ###tBodyGyroJerk.mean...Y
  - Class of the variable: numeric
- - Unique values/levels of the variable:
- - Unit of measurement:
+
 ###tBodyGyroJerk.mean...Z
  - Class of the variable: numeric
- - Unique values/levels of the variable:
- - Unit of measurement:
+
 ###tBodyAccMag.mean..
  - Class of the variable: numeric
- - Unique values/levels of the variable:
- - Unit of measurement:
+
 ###tGravityAccMag.mean..
  - Class of the variable: numeric
- - Unique values/levels of the variable:
- - Unit of measurement:
+
 ###tBodyAccJerkMag.mean..
  - Class of the variable: numeric
- - Unique values/levels of the variable:
- - Unit of measurement:
+
 ###tBodyGyroMag.mean..
  - Class of the variable: numeric
- - Unique values/levels of the variable:
- - Unit of measurement:
+
 ###tBodyGyroJerkMag.mean..
  - Class of the variable: numeric
- - Unique values/levels of the variable:
- - Unit of measurement:
+
 ###fBodyAcc.mean...X
  - Class of the variable: numeric
- - Unique values/levels of the variable:
- - Unit of measurement:
+
 ###fBodyAcc.mean...Y
  - Class of the variable: numeric
- - Unique values/levels of the variable:
- - Unit of measurement:
+
 ###fBodyAcc.mean...Z
  - Class of the variable: numeric
- - Unique values/levels of the variable:
- - Unit of measurement:
+
 ###fBodyAccJerk.mean...X
  - Class of the variable: numeric
- - Unique values/levels of the variable:
- - Unit of measurement:
+
 ###fBodyAccJerk.mean...Y
  - Class of the variable: numeric
- - Unique values/levels of the variable:
- - Unit of measurement:
+
 ###fBodyAccJerk.mean...Z
  - Class of the variable: numeric
- - Unique values/levels of the variable:
- - Unit of measurement:
+
 ###fBodyGyro.mean...X
  - Class of the variable: numeric
- - Unique values/levels of the variable:
- - Unit of measurement:
+
 ###fBodyGyro.mean...Y
  - Class of the variable: numeric
- - Unique values/levels of the variable:
- - Unit of measurement:
+
 ###fBodyGyro.mean...Z
  - Class of the variable: numeric
- - Unique values/levels of the variable:
- - Unit of measurement:
+
 ###fBodyAccMag.mean..
  - Class of the variable: numeric
- - Unique values/levels of the variable:
- - Unit of measurement:
+
 ###fBodyBodyAccJerkMag.mean..
  - Class of the variable: numeric
- - Unique values/levels of the variable:
- - Unit of measurement:
+
 ###fBodyBodyGyroMag.mean..
  - Class of the variable: numeric
- - Unique values/levels of the variable:
- - Unit of measurement:
+
 ###fBodyBodyGyroJerkMag.mean..
  - Class of the variable: numeric
- - Unique values/levels of the variable:
- - Unit of measurement:
+
 ###tBodyAcc.std...X
  - Class of the variable: numeric
- - Unique values/levels of the variable:
- - Unit of measurement:
+
 ###tBodyAcc.std...Y
  - Class of the variable: numeric
- - Unique values/levels of the variable:
- - Unit of measurement:
+
 ###tBodyAcc.std...Z
  - Class of the variable: numeric
- - Unique values/levels of the variable:
- - Unit of measurement:
+
 ###tGravityAcc.std...X
  - Class of the variable: numeric
- - Unique values/levels of the variable:
- - Unit of measurement:
+
 ###tGravityAcc.std...Y
  - Class of the variable: numeric
- - Unique values/levels of the variable:
- - Unit of measurement:
+
 ###tGravityAcc.std...Z
  - Class of the variable: numeric
- - Unique values/levels of the variable:
- - Unit of measurement:
+
 ###tBodyAccJerk.std...X
  - Class of the variable: numeric
- - Unique values/levels of the variable:
- - Unit of measurement:
+
 ###tBodyAccJerk.std...Y
  - Class of the variable: numeric
- - Unique values/levels of the variable:
- - Unit of measurement:
+
 ###tBodyAccJerk.std...Z
  - Class of the variable: numeric
- - Unique values/levels of the variable:
- - Unit of measurement:
+
 ###tBodyGyro.std...X
  - Class of the variable: numeric
- - Unique values/levels of the variable:
- - Unit of measurement:
+
 ###tBodyGyro.std...Y
  - Class of the variable: numeric
- - Unique values/levels of the variable:
- - Unit of measurement:
+
 ###tBodyGyro.std...Z
  - Class of the variable: numeric
- - Unique values/levels of the variable:
- - Unit of measurement:
+
 ###tBodyGyroJerk.std...X
  - Class of the variable: numeric
- - Unique values/levels of the variable:
- - Unit of measurement:
+
 ###tBodyGyroJerk.std...Y
  - Class of the variable: numeric
- - Unique values/levels of the variable:
- - Unit of measurement:
+
 ###tBodyGyroJerk.std...Z
  - Class of the variable: numeric
- - Unique values/levels of the variable:
- - Unit of measurement:
+
 ###tBodyAccMag.std..
  - Class of the variable: numeric
- - Unique values/levels of the variable:
- - Unit of measurement:
+
 ###tGravityAccMag.std..
  - Class of the variable: numeric
- - Unique values/levels of the variable:
- - Unit of measurement:
+
 ###tBodyAccJerkMag.std..
  - Class of the variable: numeric
- - Unique values/levels of the variable:
- - Unit of measurement:
+
 ###tBodyGyroMag.std..
  - Class of the variable: numeric
- - Unique values/levels of the variable:
- - Unit of measurement:
+
 ###tBodyGyroJerkMag.std..
  - Class of the variable: numeric
- - Unique values/levels of the variable:
- - Unit of measurement:
+
 ###fBodyAcc.std...X
  - Class of the variable: numeric
- - Unique values/levels of the variable:
- - Unit of measurement:
+
 ###fBodyAcc.std...Y
  - Class of the variable: numeric
- - Unique values/levels of the variable:
- - Unit of measurement:
+
 ###fBodyAcc.std...Z
  - Class of the variable: numeric
- - Unique values/levels of the variable:
- - Unit of measurement:
+
 ###fBodyAccJerk.std...X
  - Class of the variable: numeric
- - Unique values/levels of the variable:
- - Unit of measurement:
+
 ###fBodyAccJerk.std...Y
- - Class of the variable: numeric
- - Unique values/levels of the variable:
- - Unit of measurement:
+ - Class of the variable: numeric:
+
 ###fBodyAccJerk.std...Z
  - Class of the variable: numeric
- - Unique values/levels of the variable:
- - Unit of measurement:
+
 ###fBodyGyro.std...X
  - Class of the variable: numeric
- - Unique values/levels of the variable:
- - Unit of measurement:
+
 ###fBodyGyro.std...Y
  - Class of the variable: numeric
- - Unique values/levels of the variable:
- - Unit of measurement:
+
+
 ###fBodyGyro.std...Z
  - Class of the variable: numeric
- - Unique values/levels of the variable:
- - Unit of measurement:
+
+
 ###fBodyAccMag.std..
  - Class of the variable: numeric
- - Unique values/levels of the variable:
- - Unit of measurement:
+
+
 ###fBodyBodyAccJerkMag.std..
  - Class of the variable: numeric
- - Unique values/levels of the variable:
- - Unit of measurement:
+
+
 ###fBodyBodyGyroMag.std..
  - Class of the variable: numeric
- - Unique values/levels of the variable:
- - Unit of measurement:
+
 ###fBodyBodyGyroJerkMag.std..
  - Class of the variable: numeric
- - Unique values/levels of the variable:
- - Unit of measurement:
  
 ##Sources
 The format of this codebook was followed from [here](https://gist.github.com/JorisSchut/dbc1fc0402f28cad9b41).
