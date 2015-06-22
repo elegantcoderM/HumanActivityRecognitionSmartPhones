@@ -54,30 +54,37 @@ To generate the tidy data just source the R script.
  - Class of the variable: numeric
  - Unique values/levels of the variable:
  - Unit of measurement:
+
 ###tGravityAcc.mean...X
  - Class of the variable: numeric
  - Unique values/levels of the variable:
  - Unit of measurement:
+
 ###tGravityAcc.mean...Y
  - Class of the variable: numeric
  - Unique values/levels of the variable:
  - Unit of measurement:
+
 ###tGravityAcc.mean...Z
  - Class of the variable: numeric
  - Unique values/levels of the variable:
  - Unit of measurement:
+
 ###tBodyAccJerk.mean...X
  - Class of the variable: numeric
  - Unique values/levels of the variable:
  - Unit of measurement:
+ - 
 ###tBodyAccJerk.mean...Y
  - Class of the variable: numeric
  - Unique values/levels of the variable:
  - Unit of measurement:
+ - 
 ###tBodyAccJerk.mean...Z
  - Class of the variable: numeric
  - Unique values/levels of the variable:
  - Unit of measurement:
+ - 
 ###tBodyGyro.mean...X
  - Class of the variable: numeric
  - Unique values/levels of the variable:
